@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
  
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/csjlengxiang/CrediteaseTracking.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/csjlengxiang/CrediteaseTrackingDemo.git", :tag => "#{s.version}" }
 
   s.source_files = "CrediteaseTrackingDemo/CrediteaseTracking/**/*.{h,m}"
 

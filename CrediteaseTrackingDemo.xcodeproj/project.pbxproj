@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381CC0871F022DD8004C58CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381CC0861F022DD8004C58CE /* AppDelegate.swift */; };
+		381CC0891F022DD8004C58CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381CC0881F022DD8004C58CE /* ViewController.swift */; };
+		381CC08C1F022DD8004C58CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381CC08A1F022DD8004C58CE /* Main.storyboard */; };
+		381CC08E1F022DD8004C58CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381CC08D1F022DD8004C58CE /* Assets.xcassets */; };
+		381CC0911F022DD8004C58CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381CC08F1F022DD8004C58CE /* LaunchScreen.storyboard */; };
+		381CC0C51F022E78004C58CE /* CTCommonValueUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 381CC0B51F022E78004C58CE /* CTCommonValueUtils.m */; };
+		381CC0C61F022E78004C58CE /* CTDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 381CC0B71F022E78004C58CE /* CTDataStore.m */; };
+		381CC0C71F022E78004C58CE /* CTDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 381CC0B91F022E78004C58CE /* CTDispatcher.m */; };
+		381CC0C81F022E78004C58CE /* CTTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 381CC0BB1F022E78004C58CE /* CTTracker.m */; };
+		381CC0C91F022E78004C58CE /* CTTrackingEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 381CC0BD1F022E78004C58CE /* CTTrackingEvent.m */; };
+		381CC0CA1F022E78004C58CE /* CTTrackingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 381CC0BF1F022E78004C58CE /* CTTrackingHelper.m */; };
+		381CC0CB1F022E78004C58CE /* CTTrackingSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 381CC0C21F022E78004C58CE /* CTTrackingSession.m */; };
+		381CC0CC1F022E78004C58CE /* TrackingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 381CC0C41F022E78004C58CE /* TrackingManager.m */; };
+		62EBE297D7371DA9E7D7DDD1 /* Pods_CrediteaseTrackingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96EADCB7A696F57F75EE0F80 /* Pods_CrediteaseTrackingDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		171B91096277DF6CEB0ADCD4 /* Pods-CrediteaseTrackingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrediteaseTrackingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrediteaseTrackingDemo/Pods-CrediteaseTrackingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2290187479F5E5E6B33A62C1 /* Pods-CrediteaseTrackingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrediteaseTrackingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrediteaseTrackingDemo/Pods-CrediteaseTrackingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		381CC0831F022DD8004C58CE /* CrediteaseTrackingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrediteaseTrackingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		381CC0861F022DD8004C58CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		381CC0881F022DD8004C58CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		381CC08B1F022DD8004C58CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		381CC08D1F022DD8004C58CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		381CC0901F022DD8004C58CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		381CC0921F022DD8004C58CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381CC09A1F022E35004C58CE /* CrediteaseTrackingDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrediteaseTrackingDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		381CC0B41F022E78004C58CE /* CTCommonValueUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTCommonValueUtils.h; path = CrediteaseTracking/CTCommonValueUtils.h; sourceTree = "<group>"; };
+		381CC0B51F022E78004C58CE /* CTCommonValueUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTCommonValueUtils.m; path = CrediteaseTracking/CTCommonValueUtils.m; sourceTree = "<group>"; };
+		381CC0B61F022E78004C58CE /* CTDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTDataStore.h; path = CrediteaseTracking/CTDataStore.h; sourceTree = "<group>"; };
+		381CC0B71F022E78004C58CE /* CTDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTDataStore.m; path = CrediteaseTracking/CTDataStore.m; sourceTree = "<group>"; };
+		381CC0B81F022E78004C58CE /* CTDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTDispatcher.h; path = CrediteaseTracking/CTDispatcher.h; sourceTree = "<group>"; };
+		381CC0B91F022E78004C58CE /* CTDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTDispatcher.m; path = CrediteaseTracking/CTDispatcher.m; sourceTree = "<group>"; };
+		381CC0BA1F022E78004C58CE /* CTTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTTracker.h; path = CrediteaseTracking/CTTracker.h; sourceTree = "<group>"; };
+		381CC0BB1F022E78004C58CE /* CTTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTTracker.m; path = CrediteaseTracking/CTTracker.m; sourceTree = "<group>"; };
+		381CC0BC1F022E78004C58CE /* CTTrackingEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTTrackingEvent.h; path = CrediteaseTracking/CTTrackingEvent.h; sourceTree = "<group>"; };
+		381CC0BD1F022E78004C58CE /* CTTrackingEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTTrackingEvent.m; path = CrediteaseTracking/CTTrackingEvent.m; sourceTree = "<group>"; };
+		381CC0BE1F022E78004C58CE /* CTTrackingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTTrackingHelper.h; path = CrediteaseTracking/CTTrackingHelper.h; sourceTree = "<group>"; };
+		381CC0BF1F022E78004C58CE /* CTTrackingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTTrackingHelper.m; path = CrediteaseTracking/CTTrackingHelper.m; sourceTree = "<group>"; };
+		381CC0C01F022E78004C58CE /* CTTrackingKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTTrackingKey.h; path = CrediteaseTracking/CTTrackingKey.h; sourceTree = "<group>"; };
+		381CC0C11F022E78004C58CE /* CTTrackingSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTTrackingSession.h; path = CrediteaseTracking/CTTrackingSession.h; sourceTree = "<group>"; };
+		381CC0C21F022E78004C58CE /* CTTrackingSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTTrackingSession.m; path = CrediteaseTracking/CTTrackingSession.m; sourceTree = "<group>"; };
+		381CC0C31F022E78004C58CE /* TrackingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackingManager.h; path = CrediteaseTracking/TrackingManager.h; sourceTree = "<group>"; };
+		381CC0C41F022E78004C58CE /* TrackingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackingManager.m; path = CrediteaseTracking/TrackingManager.m; sourceTree = "<group>"; };
+		96EADCB7A696F57F75EE0F80 /* Pods_CrediteaseTrackingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrediteaseTrackingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		381CC0801F022DD8004C58CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62EBE297D7371DA9E7D7DDD1 /* Pods_CrediteaseTrackingDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E82669EA3148531AEAD8146 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96EADCB7A696F57F75EE0F80 /* Pods_CrediteaseTrackingDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		381CC07A1F022DD8004C58CE = {
+			isa = PBXGroup;
+			children = (
+				381CC0851F022DD8004C58CE /* CrediteaseTrackingDemo */,
+				381CC0841F022DD8004C58CE /* Products */,
+				7A5569A354DCCF56D7629219 /* Pods */,
+				1E82669EA3148531AEAD8146 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		381CC0841F022DD8004C58CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				381CC0831F022DD8004C58CE /* CrediteaseTrackingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		381CC0851F022DD8004C58CE /* CrediteaseTrackingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				381CC0991F022DFB004C58CE /* CrediteaseTracking */,
+				381CC0861F022DD8004C58CE /* AppDelegate.swift */,
+				381CC0881F022DD8004C58CE /* ViewController.swift */,
+				381CC09A1F022E35004C58CE /* CrediteaseTrackingDemo-Bridging-Header.h */,
+				381CC08A1F022DD8004C58CE /* Main.storyboard */,
+				381CC08D1F022DD8004C58CE /* Assets.xcassets */,
+				381CC08F1F022DD8004C58CE /* LaunchScreen.storyboard */,
+				381CC0921F022DD8004C58CE /* Info.plist */,
+			);
+			path = CrediteaseTrackingDemo;
+			sourceTree = "<group>";
+		};
+		381CC0991F022DFB004C58CE /* CrediteaseTracking */ = {
+			isa = PBXGroup;
+			children = (
+				381CC0B41F022E78004C58CE /* CTCommonValueUtils.h */,
+				381CC0B51F022E78004C58CE /* CTCommonValueUtils.m */,
+				381CC0B61F022E78004C58CE /* CTDataStore.h */,
+				381CC0B71F022E78004C58CE /* CTDataStore.m */,
+				381CC0B81F022E78004C58CE /* CTDispatcher.h */,
+				381CC0B91F022E78004C58CE /* CTDispatcher.m */,
+				381CC0BA1F022E78004C58CE /* CTTracker.h */,
+				381CC0BB1F022E78004C58CE /* CTTracker.m */,
+				381CC0BC1F022E78004C58CE /* CTTrackingEvent.h */,
+				381CC0BD1F022E78004C58CE /* CTTrackingEvent.m */,
+				381CC0BE1F022E78004C58CE /* CTTrackingHelper.h */,
+				381CC0BF1F022E78004C58CE /* CTTrackingHelper.m */,
+				381CC0C01F022E78004C58CE /* CTTrackingKey.h */,
+				381CC0C11F022E78004C58CE /* CTTrackingSession.h */,
+				381CC0C21F022E78004C58CE /* CTTrackingSession.m */,
+				381CC0C31F022E78004C58CE /* TrackingManager.h */,
+				381CC0C41F022E78004C58CE /* TrackingManager.m */,
+			);
+			name = CrediteaseTracking;
+			sourceTree = "<group>";
+		};
+		7A5569A354DCCF56D7629219 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2290187479F5E5E6B33A62C1 /* Pods-CrediteaseTrackingDemo.debug.xcconfig */,
+				171B91096277DF6CEB0ADCD4 /* Pods-CrediteaseTrackingDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		381CC0821F022DD8004C58CE /* CrediteaseTrackingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381CC0951F022DD8004C58CE /* Build configuration list for PBXNativeTarget "CrediteaseTrackingDemo" */;
+			buildPhases = (
+				3EAF94001D11CC0FD7CA686A /* [CP] Check Pods Manifest.lock */,
+				381CC07F1F022DD8004C58CE /* Sources */,
+				381CC0801F022DD8004C58CE /* Frameworks */,
+				381CC0811F022DD8004C58CE /* Resources */,
+				83F6F8354ED40B5310A3F893 /* [CP] Embed Pods Frameworks */,
+				CFCAAA71C163B61BDB9199D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrediteaseTrackingDemo;
+			productName = CrediteaseTrackingDemo;
+			productReference = 381CC0831F022DD8004C58CE /* CrediteaseTrackingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		381CC07B1F022DD8004C58CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sijiechen3;
+				TargetAttributes = {
+					381CC0821F022DD8004C58CE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4S7XAGT677;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 381CC07E1F022DD8004C58CE /* Build configuration list for PBXProject "CrediteaseTrackingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 381CC07A1F022DD8004C58CE;
+			productRefGroup = 381CC0841F022DD8004C58CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				381CC0821F022DD8004C58CE /* CrediteaseTrackingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		381CC0811F022DD8004C58CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381CC0911F022DD8004C58CE /* LaunchScreen.storyboard in Resources */,
+				381CC08E1F022DD8004C58CE /* Assets.xcassets in Resources */,
+				381CC08C1F022DD8004C58CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EAF94001D11CC0FD7CA686A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83F6F8354ED40B5310A3F893 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrediteaseTrackingDemo/Pods-CrediteaseTrackingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFCAAA71C163B61BDB9199D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrediteaseTrackingDemo/Pods-CrediteaseTrackingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		381CC07F1F022DD8004C58CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381CC0891F022DD8004C58CE /* ViewController.swift in Sources */,
+				381CC0C81F022E78004C58CE /* CTTracker.m in Sources */,
+				381CC0C51F022E78004C58CE /* CTCommonValueUtils.m in Sources */,
+				381CC0C61F022E78004C58CE /* CTDataStore.m in Sources */,
+				381CC0CC1F022E78004C58CE /* TrackingManager.m in Sources */,
+				381CC0C71F022E78004C58CE /* CTDispatcher.m in Sources */,
+				381CC0C91F022E78004C58CE /* CTTrackingEvent.m in Sources */,
+				381CC0871F022DD8004C58CE /* AppDelegate.swift in Sources */,
+				381CC0CB1F022E78004C58CE /* CTTrackingSession.m in Sources */,
+				381CC0CA1F022E78004C58CE /* CTTrackingHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		381CC08A1F022DD8004C58CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				381CC08B1F022DD8004C58CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		381CC08F1F022DD8004C58CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				381CC0901F022DD8004C58CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		381CC0931F022DD8004C58CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		381CC0941F022DD8004C58CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		381CC0961F022DD8004C58CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2290187479F5E5E6B33A62C1 /* Pods-CrediteaseTrackingDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4S7XAGT677;
+				INFOPLIST_FILE = CrediteaseTrackingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creditease.CrediteaseTrackingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CrediteaseTrackingDemo/CrediteaseTrackingDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		381CC0971F022DD8004C58CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 171B91096277DF6CEB0ADCD4 /* Pods-CrediteaseTrackingDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4S7XAGT677;
+				INFOPLIST_FILE = CrediteaseTrackingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creditease.CrediteaseTrackingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CrediteaseTrackingDemo/CrediteaseTrackingDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		381CC07E1F022DD8004C58CE /* Build configuration list for PBXProject "CrediteaseTrackingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381CC0931F022DD8004C58CE /* Debug */,
+				381CC0941F022DD8004C58CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381CC0951F022DD8004C58CE /* Build configuration list for PBXNativeTarget "CrediteaseTrackingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381CC0961F022DD8004C58CE /* Debug */,
+				381CC0971F022DD8004C58CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 381CC07B1F022DD8004C58CE /* Project object */;
+}
